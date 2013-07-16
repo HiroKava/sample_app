@@ -8,6 +8,13 @@ development:
   database: db/development.sqlite3
   pool: 5
   timeout: 5000
+#  adapter: postgresql
+#  encoding: utf8
+#  database: test
+#  username: kabasawa_hiroyuki
+#  password: kava_mac
+#  pool: 5
+#  timeout: 5000
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -17,9 +24,23 @@ test:
   database: db/test.sqlite3
   pool: 5
   timeout: 5000
+#  adapter: postgresql
+#  encoding: utf8
+#  database: test
+#  username: kabasawa_hiroyuki
+#  password: kava_mac
+#  pool: 5
+#  timeout: 5000
 
 production:
   adapter: sqlite3
   database: db/production.sqlite3
   pool: 5
   timeout: 5000
+#  adapter: postgresql
+#  encoding: utf8
+#  database: test
+#  username: kabasawa_hiroyuki
+#  password: kava_mac
+#  pool: 5
+#  timeout: 5000
